@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "nbt": "{s.Mizudeppou:1}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "c_sum:items/mizudeppou"
+    }
+}

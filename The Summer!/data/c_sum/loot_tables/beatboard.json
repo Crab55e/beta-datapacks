@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:feather",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{s.Beatboard:1,CustomModelData:337,display:{Name:'{\"text\":\"ビート板\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:shield",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{s.Mizudeppou:1,CustomModelData:334,display:{Name:'{\"text\":\"水鉄砲\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
