@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "nbt": "{c_mg.didgeridoo.nb:1}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "c_musical_gadget:item/didgeridoo_nb"
+    }
+}
