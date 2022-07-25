@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "c_tfo:used_okamizer"
+            }
+        }
+    },
+    "rewards": {
+        "function": "c_tfo:systems/used_okamizer"
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "type": "minecraft:entity",
+    "pools": [{
+        "rolls": 1,
+        "entries": [{
+                "type": "minecraft:item",
+                "weight": 1,
+                "name": "minecraft:item_frame",
+                "functions": [{
+                    "function": "minecraft:set_nbt",
+                    "tag": "{CustomModelData: 334, display: {Name: '{\"text\":\"赤色の花火機\",\"italic\":false}'}, EntityTag: {Tags: [\"s.AutoFireworkMachine\"], Invisible: 1, Item: {id: \"minecraft:feather\", Count: 1, tag: {AFType: \"Red\", CustomModelData: 338}}}}"
+                }]
+            },
+            {
+                "type": "minecraft:item",
+                "weight": 1,
+                "name": "minecraft:item_frame",
+                "functions": [{
+                    "function": "minecraft:set_nbt",
+                    "tag": "{CustomModelData: 334, display: {Name: '{\"text\":\"橙色の花火機\",\"italic\":false}'}, EntityTag: {Tags: [\"s.AutoFireworkMachine\"], Invisible: 1, Item: {id: \"minecraft:feather\", Count: 1, tag: {AFType: \"Orange\", CustomModelData: 338}}}}"
+                }]
+            },
+            {
+                "type": "minecraft:item",
+                "weight": 1,
+                "name": "minecraft:item_frame",
+                "functions": [{
+                    "function": "minecraft:set_nbt",
+                    "tag": "{CustomModelData: 334, display: {Name: '{\"text\":\"黄色の花火機\",\"italic\":false}'}, EntityTag: {Tags: [\"s.AutoFireworkMachine\"], Invisible: 1, Item: {id: \"minecraft:feather\", Count: 1, tag: {AFType: \"Yellow\", CustomModelData: 338}}}}"
+                }]
+            },
+            {
+                "type": "minecraft:item",
+                "weight": 1,
+                "name": "minecraft:item_frame",
+                "functions": [{
+                    "function": "minecraft:set_nbt",
+                    "tag": "{CustomModelData: 334, display: {Name: '{\"text\":\"緑色の花火機\",\"italic\":false}'}, EntityTag: {Tags: [\"s.AutoFireworkMachine\"], Invisible: 1, Item: {id: \"minecraft:feather\", Count: 1, tag: {AFType: \"Green\", CustomModelData: 338}}}}"
+                }]
+            },
+            {
+                "type": "minecraft:item",
+                "weight": 1,
+                "name": "minecraft:item_frame",
+                "functions": [{
+                    "function": "minecraft:set_nbt",
+                    "tag": "{CustomModelData: 334, display: {Name: '{\"text\":\"空色の花火機\",\"italic\":false}'}, EntityTag: {Tags: [\"s.AutoFireworkMachine\"], Invisible: 1, Item: {id: \"minecraft:feather\", Count: 1, tag: {AFType: \"Sky\", CustomModelData: 338}}}}"
+                }]
+            },
+            {
+                "type": "minecraft:item",
+                "weight": 1,
+                "name": "minecraft:item_frame",
+                "functions": [{
+                    "function": "minecraft:set_nbt",
+                    "tag": "{CustomModelData: 334, display: {Name: '{\"text\":\"青色の花火機\",\"italic\":false}'}, EntityTag: {Tags: [\"s.AutoFireworkMachine\"], Invisible: 1, Item: {id: \"minecraft:feather\", Count: 1, tag: {AFType: \"Blue\", CustomModelData: 338}}}}"
+                }]
+            },
+            {
+                "type": "minecraft:item",
+                "weight": 1,
+                "name": "minecraft:item_frame",
+                "functions": [{
+                    "function": "minecraft:set_nbt",
+                    "tag": "{CustomModelData: 334, display: {Name: '{\"text\":\"紫色の花火機\",\"italic\":false}'}, EntityTag: {Tags: [\"s.AutoFireworkMachine\"], Invisible: 1, Item: {id: \"minecraft:feather\", Count: 1, tag: {AFType: \"Purple\", CustomModelData: 338}}}}"
+                }]
+            }
+        ]
+    }]
+}

@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:parrot_spawn_egg"
+        },
+        "title": "インコかわいいいいいいいいい",
+        "description": "両方の肩にオカメインコを乗せたままオカメインコを見つめる",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:adventure/spyglass_at_parrot",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "nbt": "{ShoulderEntityLeft:{id:\"minecraft:parrot\",Variant:4},ShoulderEntityRight:{id:\"minecraft:parrot\",Variant:4}}",
+                    "targeted_entity": {
+                        "type": "minecraft:parrot",
+                        "nbt": "{Variant:4}"
+                    }
+                }
+            }
+        }
+    }
+}
