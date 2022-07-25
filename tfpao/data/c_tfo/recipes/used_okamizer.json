@@ -1,0 +1,36 @@
+
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " #S",
+        "WRB",
+        "DC "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:command_block"
+        },
+        "S": {
+            "item": "minecraft:structure_void"
+        },
+        "W": {
+            "item": "minecraft:structure_block"
+        },
+        "R": {
+            "item": "minecraft:repeating_command_block"
+        },
+        "B": {
+            "item": "minecraft:barrier"
+        },
+        "D": {
+            "item": "minecraft:debug_stick"
+        },
+        "C": {
+            "item": "minecraft:chain_command_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:stone",
+        "count": 1
+    }
+}
