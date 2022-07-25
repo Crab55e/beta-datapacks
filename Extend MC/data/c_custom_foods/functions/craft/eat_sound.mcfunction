@@ -1,0 +1,1 @@
+playsound minecraft:entity.generic.eat master @a[distance=..5] ~ ~ ~ 1 1 1
