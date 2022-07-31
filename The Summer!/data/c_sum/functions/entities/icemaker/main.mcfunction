@@ -1,0 +1,1 @@
+execute if data entity @s {ItemRotation:1b} run function c_sum:craft/icemaker/init
