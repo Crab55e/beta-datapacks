@@ -4,6 +4,7 @@
 scoreboard players add @s s.Firework_Vindicator.ai.score 1
 effect give @s slowness 100 2 true
 effect give @s fire_resistance 100 0 true
+fill ~1 ~ ~1 ~-1 ~ ~-1 air replace fire
 
 # start
 execute if score @s s.Firework_Vindicator.ai.score matches 50 run function c_tfo:events/summon_firework
